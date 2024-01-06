@@ -17,6 +17,19 @@ _Please PR to add more!_
 1. "Save Page As" from your browser to your local filesystem
 1. Parse page using Python script in this repo (see [Help](#help))
 
+Basic example:
+
+```console
+(venv) casey@Caseys-MacBook-Pro transaction_scraper % python3 main.py --html-file ~/Documents/sofi_cc_2024-01-06.html --output-file trans.csv
+(venv) casey@Caseys-MacBook-Pro transaction_scraper % head -n5 trans.csv
+date,payee,memo,outflow,inflow
+2024-01-05,Market32 pchopper #250,Groceries,58.56,0
+2024-01-04,Aldi 65228,Groceries,100.70,0
+2024-01-04,Shopjimmycom,Shopping,27.66,0
+2024-01-04,Thrive market,Other,64.15,0
+```
+
+
 # Help
 
 ```console
