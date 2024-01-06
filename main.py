@@ -27,8 +27,8 @@ if __name__ == "__main__":
                         help='Include transactions whose date is equal or later than this ' \
                         'start date, format YYYY-mm-dd')
     arg_parser.add_argument('--end-date', required=False,
-                        help='Include transactions whose date is equal or later than this ' \
-                        'start date, format YYYY-mm-dd')
+                        help='Include transactions whose date is equal or prior to this ' \
+                        'end date, format YYYY-mm-dd')
     arg_parser.add_argument('--output-file-name', required=False, default='cc_trans_out.csv',
                         help='File name of output CSV file')
     arg_parser.add_argument('--file-encoding', default='utf-8',

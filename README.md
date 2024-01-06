@@ -45,7 +45,7 @@ optional arguments:
                         The HTML file containing Sofi CC transactions
   --start-date START_DATE
                         Include transactions whose date is equal or later than this start date, format YYYY-mm-dd
-  --end-date END_DATE   Include transactions whose date is equal or later than this start date, format YYYY-mm-dd
+  --end-date END_DATE   Include transactions whose date is equal or prior to this end date, format YYYY-mm-dd
   --output-file-name OUTPUT_FILE_NAME
                         File name of output CSV file
   --file-encoding FILE_ENCODING
