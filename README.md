@@ -12,10 +12,10 @@ _Please PR to add more!_
 
 ## General use
 
-1. Open transactions page in desktop browser
-1. Load as many transactions onto page as you'd like
-1. "Save Page As" from your browser to your local filesystem
-1. Parse page using Python script in this repo (see [Help](#help))
+1. Open the transactions page in a desktop browser and get it to your desired state (e.g. scroll to load set of transactions)
+1. "Save Page As" from your browser to your local filesystem, note the path
+1. If necessary, clone/download this repo and setup
+1. Execute Python script from this repo with desired options (see [Help](#help))
 
 Basic example:
 
@@ -29,8 +29,19 @@ date,payee,memo,outflow,inflow
 2024-01-04,Thrive market,Other,64.15,0
 ```
 
+# Setup & Execution Options
 
-# Help
+## Setup
+
+Create virtualenv, use it, and install dependencies:
+
+```console
+python3 -m venv trans_venv
+source trans_venv/bin/activate
+pip install -r requirements.txt
+```
+
+## Execution options
 
 ```console
 % PYTHONPATH=. python3 main.py --help
