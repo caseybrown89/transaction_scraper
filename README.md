@@ -4,9 +4,9 @@
 
 Parse HTML (e.g. a transactions page from your bank) into CSV format for compatibility with tools like YNAB
 
-## Supported pages
+## Supported banks and pages
 
-1. SoFi CC transactions
+1. SoFi, credit card transactions page - mode `sofi_cc`
 
 _Please PR to add more!_
 
